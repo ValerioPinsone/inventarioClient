@@ -1,0 +1,28 @@
+.prodotti-container{
+   
+    margin:20px;
+}
+
+.prodotto {
+    background-color: rgba(0, 0, 0, 0.281);
+    height: 50px;
+    width: 400px;
+    margin:5px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.prodotto img {
+    margin-top: 4px;
+    
+    width:40px;
+    float: left;
+}
+
+.prodotto p {
+    margin-left: 10px;
+    float: left;
+    margin-top: 14px;
+    font-size: 18px;
+    color: rgb(240, 180, 15);
+}
