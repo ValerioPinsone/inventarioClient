@@ -1,25 +1,59 @@
+.main-container{
+    max-width: 1200px;
+    margin: auto;
+}
+.categorie-container{
+    margin-top: 20px;
+    background-color: rgba(245, 222, 179, 0.568);
+    width: 20%;
+    float: left;
+    border-radius: 10px  0 0 10px;
+
+}
+
+.categoria {
+    border-bottom: solid 1px rgb(56, 56, 56);
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+.categoria p:hover{
+    color: rgb(253, 244, 226);
+}
+
+.categoria p{
+    margin-top: 10px;
+}
 
 
 .prodotti-container{
    
-    background-color: rgb(71, 71, 71);
-    margin:10px auto;
-    display: block;
-    max-width: 900px;
+    background-color: rgba(2, 2, 2, 0.623);
+    margin-top:19px;
+    float: right;
+    width: 80%;
+    height: 800PX;
+    border-radius: 0 10px 10px 0;
+    overflow-y: scroll;
     
     
 }
 
 .prodotto {
-    background-color: rgba(0, 0, 0, 0.281);
-    height: 50px;
-    max-width: 400px;
+    background-color: rgb(53, 53, 53);
+    height:100px;
+    width:20%;
     margin:5px;
+    float: left;
     padding: 15px;
     border-radius: 8px;
-    float: left;
+    
     cursor: pointer;
 }
+
 
 .prodotto :hover{
     color: rgb(255, 222, 130);
@@ -40,3 +74,24 @@
     font-size: 18px;
     color: rgb(240, 180, 15);
 }
+
+/*scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #444444; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
